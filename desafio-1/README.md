@@ -22,3 +22,31 @@ O client.go terá que salvar a cotação atual em um arquivo "cotacao.txt" no fo
 O endpoint necessário gerado pelo server.go para este desafio será: /cotacao e a porta a ser utilizada pelo servidor HTTP será a 8080.
  
 Ao finalizar, envie o link do repositório para correção.
+
+
+
+- **server.go**: Um servidor HTTP que consome a cotação do dólar da API pública e salva no SQLite.
+- **client.go**: Um cliente HTTP que consulta o servidor e grava a cotação atual em um arquivo de texto.
+
+---
+
+## 📂 Estrutura de Pastas
+
+```text
+/cotacao-project
+├── client/
+│   ├── client.go
+│   ├── go.mod
+│   ├── Dockerfile
+│   └── cotacao.txt         # (gerado em runtime)
+├── server/
+│   ├── server.go
+│   ├── go.mod
+│   ├── Dockerfile
+│   └── cotacoes.db         # (gerado em runtime)
+├── docker-compose.yml
+└── README.md
+```
+
+
+
