@@ -37,14 +37,11 @@ Ao finalizar, envie o link do repositório para correção.
 ├── client/
 │   ├── client.go
 │   ├── go.mod
-│   ├── Dockerfile
-│   └── cotacao.txt         # (gerado em runtime)
+│   └── cotacao.txt
 ├── server/
 │   ├── server.go
 │   ├── go.mod
-│   ├── Dockerfile
-│   └── cotacoes.db         # (gerado em runtime)
-├── docker-compose.yml
+│   └── cotacoes.db
 └── README.md
 ```
 
